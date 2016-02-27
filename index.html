@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My Awesome App</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+      
+      <link href="styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+      
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        
+        <div class="container">
+            
+            <div class="navbar-header"><a href="" class="navbar-brand">MyApp</a>
+                
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                
+                </button>
+            
+            </div>
+            
+            <div class="collapse navbar-collapse">
+                
+                <ul class="nav navbar-nav">
+                    
+                    <li class="page-scroll"><a href="#home">Home</a></li>
+                    <li class="page-scroll"><a href="#about">About</a></li>
+                    <li class="page-scroll"><a href="#download">Download the App</a></li>
+                
+                </ul>
+                
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" name="password" placeholder="Password">
+                    
+                    </div>
+                    <button type="submit" class="btn btn-default">Sign In</button>
+                </form>
+            
+            </div>
+        
+        </div>
+      
+    </div>
+<div class=".container-fluid">
+    
+    <div id="home" class="col-lg-12 span12 text-center">
+        <div class="content">
+        <h1>My App Is Awesome</h1>
+            <h4>This is why you should download the app.</h4>
+            <br />
+            <p>Some more information about the app. You can go into a little more detail here if you want.</p>
+            <br />
+            <br />
+            <p class="bold">Interested? Join our mailing list.</p>
+            
+            <form class="home-form">
+                <div class="form-group">
+                    <div class="input-group">
+    <div class="input-group-addon">@</div>
+            <input type="email" class="form-control" placeholder="Your email">
+                </div>
+                    <br />
+                    <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+        </div>
+    
+    </div>
+    </div>
+    
+        <div class="clear"></div>
+    <div id="about" class="col-lg-12">
+            <h1>Why This App Is Awesome</h1>
+            <p class="summaryparagraph">Summary of the apps awesomeness.</p>
+            
+            <div class="col-md-4 info">
+                <h3><span class="glyphicon glyphicon-road"></span>Header</h3>
+                <p>A brief description of one of the best features of your app. Maybe a little more text.A brief description of one of the best features of your app. Maybe a little more text. </p>
+                <div class="divsignup">
+                <button type="submit" class="btn btn-success signupbutton">Sign Up</button>
+                </div>
+            
+            </div>
+            <div class="col-md-4 info">
+                
+                <h3><span class="glyphicon glyphicon-time"></span>Header</h3>
+                <p>A brief description of one of the best features of your app. Maybe a little more text.A brief description of one of the best features of your app. Maybe a little more text. </p>
+                <div class="divsignup">
+                <button type="submit" class="btn btn-success signupbutton">Sign Up</button>
+                </div>
+            
+            </div>
+            <div class="col-md-4 info">
+                
+                <h3><span class="glyphicon glyphicon-pencil"></span>Header</h3>
+                <p>A brief description of one of the best features of your app. Maybe a little more text.A brief description of one of the best features of your app. Maybe a little more text. </p>
+                <div class="divsignup">
+                <button type="submit" class="btn btn-success signupbutton">Sign Up</button>
+                </div>
+            
+            </div>
+        </div>
+    <div class="clear"></div>
+    <div id="download"class="col-lg-12">
+        <div class="paragraph">
+        <h1>Download the App!</h1>
+        <p class="summaryparagraph">Really, why should I download this app?</p>
+            <br />
+        <a href=""><img src="img/appstore.png" /></a>
+        </div>
+    </div>
+    
+    <script>
+        $('a[href="' + this.location.pathname + '"]').parents('li,ul').addClass('active');
+    </script>
+      
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
